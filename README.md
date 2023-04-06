@@ -6,7 +6,7 @@ Task that needs to  be completed to get the Prediction Model
 1) Detecting The Coloured Balls, Cue and the Cue Ball
 - To solve this I have used HSV Colour Spacing to extract the mask of the desired colour. Then contours were extracted from the mask to detect the Ball, Colour Balls and Cue. To differentiate between Cue and Cue Ball of being same colours various aspects like radius, width and area of the contour was considered.
 Edge Case: Edge case was to detect the Green Balls Behind the green background.Tweaking the value of Green HSV Mask comparing the Shades of the Green Ball and Background a contour of small radius within the pool table range was considered which was sufficient enough to detect the Balls
-2) Detecting the Path of the Cue Ball and Colored Ball Needed for detection of  the path for Coloured Ball.
+2) Detecting the Path of  Cue Ball and Colored Ball Needed for detection of  the path for Coloured Ball:
 - The connecting straight line of the Cue and Cue ball is the Path of Cue Ball
 
 3) Detecting the Path of the Coloured Ball
